@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Interactive Web Development Showcase",
-  description: "Learn HTML, CSS, and JavaScript through interactive examples",
+  description: "Learn HTML, CSS, and JS through good interactive examples",
     generator: 'v0.dev'
 }
 
@@ -21,7 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        <main>{children}</main>
+        <main>{children}
+        </main>
       </body>
     </html>
   )
